@@ -29,7 +29,7 @@ body {
     margin: auto;
     height: 86%;
     background-color: #00382D;
-    background-image: url(imagens/Fundo1.jpg);
+    background-image: url(Imagens/Fundo1.jpg);
     background-size: 100% ;
     background-repeat: no-repeat;
     border-bottom: 7px dotted var(--cor4);
@@ -128,7 +128,7 @@ footer {
     margin-top: 12%;
     margin-left: -9%;
     float: left;
-    background-image: url(imagens/Fundo2.jpg);
+    background-image: url(Imagens/Fundo2.jpg);
     background-size: 100% ;
     background-repeat: no-repeat;
 }
