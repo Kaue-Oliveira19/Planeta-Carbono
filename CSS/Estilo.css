@@ -1,0 +1,138 @@
+/**/
+* {
+    padding: auto;
+    margin: auto;
+}
+/*Editar todos os links*/
+a {
+    text-decoration: none;
+    color: white;
+}
+/*Limpar o Float*/
+.Clear {
+    clear: none;
+}
+/*Variaveis das cores utlizadas*/
+:root {
+    --cor1 : #00382D;
+    --cor2 : white;
+    --cor3 : #C0FF72;
+    --cor4 : #3c532d;
+}
+/*Corpo do site em si*/
+body {
+    height: 800px;
+    background-color: var(--cor1);
+}
+/**/
+.Fundo {
+    margin: auto;
+    height: 86%;
+    background-color: #00382D;
+    background-image: url(imagens/Fundo1.jpg);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    border-bottom: 7px dotted var(--cor4);
+}
+/*top*/
+header {
+    border-bottom: 1px solid white;
+    background-color: var(--cor1); 
+    height: 7%;
+}
+/*Rodapé do site*/
+footer {
+    clear: both;
+}
+/*Metade do logo*/
+.Titulo1{
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--cor2);
+}
+/*Outro metade do logo*/
+.Titulo2{
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--cor3);
+}
+/*cores do texto*/
+.Titulo3{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor2);
+}
+/*cores do texto */
+.Titulo4{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor3);
+}
+/*Editar diretamente os elemento do header*/
+.Logo {
+    float: left;
+    margin: 15px 50px 30px 50px; 
+}
+/*Editar diretamente os elemento do header*/
+.Barra {
+    float: right;
+    margin: 2%;
+} 
+/**/
+.Introducao1 {
+    width: 275px;
+    height: 500px;
+    float: left;
+    text-align: center;
+    margin: 20% auto auto -20%;
+    display: none;
+}
+/**/
+.Botao button {
+    margin-top: 15px;
+    width: 120px;
+    height: 60px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor3);
+    background-color: var(--cor4);
+}
+/**/
+.Botao button:hover {
+    background-color: var(--cor3);
+    color: var(--cor4);
+}
+/*Bot1 serve para dar um espaço do lador esquerdo*/
+.Bot1 {
+    color: var(--cor2);
+    display: inline-block;
+    margin: 1% 1% 2% 10%;
+    padding: 1%;
+}
+/**/
+.Bot {
+    color: var(--cor2);
+    display: inline-block;
+    margin: 1% 1% 2% 1%;
+    padding: 1%;
+}
+/**/
+.Slide1 {
+    width: 70%;
+    height: 55%;
+    background-color: var(--cor4);
+    text-align: center;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 12%;
+    margin-left: -9%;
+    float: left;
+    background-image: url(imagens/Fundo2.jpg);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+}
+/**/
+.Texto1 {
+    margin: 15% 10% 10% 10%;
+}
