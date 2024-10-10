@@ -96,6 +96,7 @@ footer {
     font-weight: bold;
     color: var(--cor3);
     background-color: var(--cor4);
+    display: inline-block;
 }
 /**/
 .Botao button:hover {
