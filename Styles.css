@@ -27,7 +27,7 @@ body {
 /**/
 .Fundo {
     margin: auto;
-    height: 86%;
+    height: 100%;
     background-color: #00382D;
     background-image: url(Imagens/Fundo1.jpg);
     background-size: 100% ;
