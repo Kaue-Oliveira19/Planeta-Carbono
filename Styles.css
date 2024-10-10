@@ -85,7 +85,6 @@ footer {
     float: left;
     text-align: center;
     margin: 20% auto auto -20%;
-    display: none;
 }
 /**/
 .Botao button {
@@ -131,6 +130,7 @@ footer {
     background-image: url(Imagens/Fundo2.jpg);
     background-size: 100% ;
     background-repeat: no-repeat;
+    display:none;
 }
 /**/
 .Texto1 {
