@@ -1,0 +1,672 @@
+/*---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|CSS PADRÃO DO SITE|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|*/
+
+/**/
+* {
+    padding: auto;
+    margin: auto;
+}
+/*Edita todos os links*/
+a {
+    text-decoration: none;
+    color: white;
+}
+/*Limpar o Float*/
+.Clear {
+    clear: none;
+}
+/*Variaveis das cores utlizadas no site*/
+:root {
+    --cor1 : #00382D;
+    --cor2 : white;
+    --cor3 : #C0FF72;
+    --cor4 : #3c532d;
+    --cor5 : #459c79;
+
+}
+/*Altera o corpo do site em si*/
+body {
+    background-color: var(--cor1);
+}
+/*Altera a barra superior do site*/
+header {
+    border-bottom: 1px solid white;
+    background-color: var(--cor1); 
+    height: 8%;
+    position: fixed;
+    width: 100%;
+}
+/*Botão no formato de planeta que faz mudar de cor o site*/
+header button {
+    width: 30px;
+    height: 30px;
+    background-color: var(--cor3) ;
+    border: none;
+    border-radius: 50%;
+    background-image: url(Imagens/Botão.png);
+    background-position: center center  ;
+    transition-duration: 1s;
+}
+/*Acrescenta um efeito no botão que faz mudar de cor o site*/
+header button:hover {
+    width: 30px;
+    height: 30px;
+    background-color: var(--cor3) ;
+    border: none;
+    border-radius: 50%;
+    background-image: url(Imagens/Botão1.png);
+    background-position: center center  ;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+/*Editar diretamente os elemento do header*/
+.Logo {
+    float: left;
+    margin: 15px 50px 30px 50px; 
+}
+/*Editar diretamente os elemento do header*/
+.Barra {
+    float: right;
+    margin: 1.2%;
+    font-size: 22px;
+    transition-duration: 1s;
+}
+/**/
+.Barra:hover {
+    float: right;
+    margin: 1%;
+    font-size: 22px;
+    color: var(--cor3);
+    transition-duration: 1s;
+} 
+/*Texto da introdução do site*/
+#Introducao1 {
+    width: 275px;
+    height: 425px;
+    float: left;
+    text-align: center;
+    margin: 20% auto auto 10%; 
+    margin-top: 250px;   
+}
+/*Altera a primeira seção, que é a Home*/
+#container1{
+    background-color: var(--cor4);
+    margin: auto;
+    height: 820px;  
+    background-image: url(Imagens/Fundo1.jpg);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    background-position: center center ;
+}
+/*Altera a segunda seção, que é a Quem Somos*/
+#container2{
+    background-color: var(--cor1);
+    margin: auto;
+    height: 500px;
+}
+/*Altera a terceira seção, que é o primeiro trio de perguntas*/
+#container3{
+    background-color: var(--cor4);
+    margin: auto;
+    height: 650px;
+}
+/*Altera a quarta seção, que é o segundo trio de perguntas*/
+#container4{
+    background-color: var(--cor1);
+    margin: auto;
+    height: 650px;
+}
+/*Altera a quinta seção, que é o terceiro trio de perguntas*/
+#container5{
+    background-color: var(--cor4);
+    margin: auto;
+    height: 650px;
+}
+/*Altera a sexta seção, que é a parte de resultados*/
+#container6{
+    background-color: var(--cor1);
+    margin: auto;
+    height: 800px;
+}
+/**/
+#seuResultado{
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--cor3);
+    margin-top: 0px;
+    text-align: center;
+    margin-top: 40% ;
+}
+/*Altera a sétima seção, que é a parte de dicas*/
+#container7{
+    background-color: var(--cor4);
+    margin: auto;
+    height: 840px;
+    padding: auto;
+}
+/*Altera a barra da parte inferior do site*/
+footer {
+    float: left;
+    width: 100%;
+    height: 10%;
+    background-color: var(--cor1 );  
+    margin: auto;
+    padding: auto;
+    position: fixed;
+    bottom: 0px;
+    border-top: 5px var(--cor4) dotted;
+}
+/*Metade do logo*/
+.Titulo1{
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--cor2);
+    margin-top: -0px;
+    text-indent: 45px;
+}
+/*Outro metade do logo*/
+.Titulo2{
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--cor3);
+}
+/*cores do texto*/
+.Titulo3{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor2);
+}
+/*cores do texto */
+.Titulo4{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor3);
+}
+/*cores do texto */
+.Titulo5{
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--cor3);
+    margin-top: 0px;
+    text-align: center;
+    margin-top: 40% ;
+}
+/**/
+.Titulo6{
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--cor3);
+    margin-top: 30px;
+    text-align: center;;
+}
+/*Caixa dentro do slide 1*/
+.Texto1 {
+    margin: 10% 10% 15% 10%;
+    font-size: 30px;
+    text-align: justify;
+    text-indent: 45px;
+
+}
+/*Texto das perguntas do slide 2*/
+.Texto2 {
+    margin: 10% 4% auto 4%;
+    display: block;
+    width: 25%;
+    height: 50%;
+    float: left;
+}
+/*Texto das perguntas do slide 3*/
+.Texto3 {
+    margin: 10% 4% auto 4%;
+    display: block;
+    width: 25%;
+    height: 50%;
+    float: left;
+}
+/*Texto das perguntas do slide 3*/
+.Texto4 {
+    margin: 10% 4% auto 4%;
+    display: block;
+    width: 25%;
+    height: 50%;
+    float: left;
+}
+/**/
+.Texto5 {
+    margin: 1% 30% auto 37%;
+    display: block;
+    width: 25%;
+    height: 50%;
+    float: left;
+}
+/**/
+.Texto6 {
+    margin: -5% 20% 7% 15%;
+    float: left; 
+    text-align: center;
+}
+/**/
+.Texto7 {
+    margin: -15% 20% 4% 25%;
+    float: left;
+}
+/**/
+.Texto8 {
+    margin: 8% 54% 10% 5%;
+    position: absolute; 
+    text-align: justify;
+    display: block;
+    border-right: var(--cor2) 7px dotted;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+/**/
+.Texto9 {
+    margin: 9% 20% 10% 15%;
+    position: absolute; 
+    text-align: justify;
+    display: block;
+}
+/**/
+.Texto10 {
+    margin: 3% 20% 4% 20%;
+    text-align: justify;
+    display: block;
+}
+/**/
+.Texto11 {
+    margin: 3% 20% 4% 20%;
+    text-align: justify;
+    display: block;
+    text-indent: 45px;
+}
+/**/
+.Texto12 {
+    margin: 3% 20% 4% 20%;
+    text-align: justify;
+    display: block;
+    text-indent: 45px;
+}
+/**/
+.Texto13 {
+    margin: 3% 20% 4% 20%;
+    text-align: justify;
+    display: block;
+    text-indent: 45px;
+}
+/*Botão calcular que direciona você para a parte das perguntas*/
+#btnIrCalcular{
+    margin-top: 15px;
+    width: 120px;
+    height: 60px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor3);
+    background-color: var(--cor4);
+    transition-duration: 1s;
+    border: none;
+}
+/*Acrescenta um efeito no botão calcular*/
+#btnIrCalcular:hover {
+    background-color: var(--cor3);
+    color: var(--cor4);
+    transition-duration: 1s;
+    cursor: pointer;
+}
+/**/
+.btnProximo{
+    width: 120px;
+    height: 60px;
+    margin: 2% auto 20% 88%;
+    border-radius: 25px;
+    border: 1px var(--cor2) solid;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor3);
+    background-color: var(--cor1);
+    transition-duration: 1s;
+    text-align: center;
+}
+/*Acrescenta um efeito no botão próximo*/
+.btnProximo:hover {
+    background-color: var(--cor3);
+    color: var(--cor4);
+    transition-duration: 1s;
+    cursor: pointer;
+}
+/**/
+.btnVoltar{
+    width: 120px;
+    height: 60px;
+    margin: 2% auto 20% 2%;
+    border-radius: 25px;
+    border: 1px var(--cor2) solid;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor3);
+    background-color: var(--cor1);
+    transition-duration: 1s;
+    text-align: center;
+}
+/*Acrescenta um efeito no botão próximo*/
+.btnVoltar:hover {
+    background-color: var(--cor3);
+    color: var(--cor4);
+    transition-duration: 1s;
+    cursor: pointer;
+}
+/**/
+#btnResultado{
+    width: 120px;
+    height: 60px;
+    margin: 2% auto 10% 88%;
+    border-radius: 25px;
+    border: 1px var(--cor2) solid;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor3);
+    background-color: var(--cor1);
+    transition-duration: 1s;
+    text-align: center;
+}
+/*Acrescenta um efeito no botão calcular*/
+#btnResultado:hover {
+    background-color: var(--cor3);
+    color: var(--cor4);
+    transition-duration: 1s;
+    cursor: pointer;
+}
+/**/
+#btnDicas{
+    width: 120px;
+    height: 60px;
+    margin: 2% auto 10% 88%;
+    border-radius: 25px;
+    border: 1px var(--cor2) solid;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor3);
+    background-color: var(--cor1);
+    transition-duration: 1s;
+    text-align: center;
+}
+/*Acrescenta um efeito no botão calcular*/
+#btnDicas:hover {
+    background-color: var(--cor3);
+    color: var(--cor4);
+    transition-duration: 1s;
+    cursor: pointer;
+}
+/*Editar o conteudo do footer*/ 
+.Bot {
+    float: left;
+    margin: 2% 1% 1% 1%;
+    font-size: 17px;     
+    transition-duration: 1s;
+}
+/*Editar o conteudo do footer*/ 
+.Bot:hover {
+    text-decoration: underline;
+    color: var(--cor3);
+    transition-duration: 1s;
+}
+/*Editar o conteudo do footer*/ 
+.Bot1 {
+    float: left;
+    margin: 2% 1% 1% 15%;
+    font-size: 17px;
+    transition-duration: 1s;
+}
+/*Editar o conteudo do footer*/ 
+.Bot1:hover {
+    color: var(--cor3);
+    text-decoration: underline;
+    transition-duration: 1s;
+}
+/*Editar o conteudo do footer*/ 
+.Bot2 {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    color: var(--cor2);
+    font-size: 15px; 
+}
+/*Botão para colocar a informação do slide 2*/
+input{
+    border: none;
+    border-radius: 50px;
+    margin: 30% 20% auto 35%;
+    width: 80px;
+    height: 50px;
+    background-color: var(--cor5);
+    padding: 7px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor3);
+}
+/*Retira a seta para cima e para baixo do botão*/
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+/**/
+#SlideContato {
+    width: 1500px;
+    height: 700px;
+    background-color: var(--cor4);
+    border-radius: 50px;
+    margin: 5% auto 6% 11%;
+    float: left;
+}
+/**/
+.ContatoE {
+    margin: 6% auto auto 6%;
+    width: 18%;
+    height: 70%;
+    border-right: 7px dotted var(--cor2) ;
+    float: left;
+    text-align: center;
+}
+/**/
+.ContatoC {
+    margin: 6% auto auto -2%;
+    width: 18%;
+    height: 70%;
+    border-right: 7px dotted var(--cor2) ;
+    text-align: center;
+    float: left;
+}
+/**/
+.ContatoD {
+    margin: 6% auto auto -2%;
+    width: 18%;
+    height: 70%;
+    float: left;
+    text-align: center;
+}
+/**/
+.Github {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    background-image: url(Imagens/LogoGithub.png);
+    background-repeat: no-repeat;
+    position: center center;
+    margin: 5% 13% 10% 30%;
+    cursor: pointer;
+}
+/**/
+.Gmail {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    background-image: url(Imagens/LogoGmail.png);
+    background-repeat: no-repeat;
+    position: center center;
+    margin: 5% 15% 10% 30%;
+    background-color: var(--cor4);
+    cursor: pointer;
+}
+/**/
+.Linkedin {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    background-image: url(Imagens/LogoLinkedin.png);
+    background-repeat: no-repeat;
+    position: center center;
+    margin: 5% 15% 10% 30%;
+    background-color: var(--cor4);
+    cursor: pointer;
+}
+/**/
+.Texto14 {
+    margin: 1% 10% 15% 25%;
+    font-size: 17px;
+    font-weight: bold;
+    color: var(--cor3);
+}
+
+/*---|---|---|---|---|---|---|---|---|---|---|---|---|---|CSS RESPONSIVIDADE PARA DESKTOP|---|---|---|---|---|---|---|---|---|---|---|---|---|---|*/
+
+/*Resolução 1920×1080*/
+@media screen and (max-width: 1920px){
+
+}
+
+/*Resolução 1600×900*/
+@media screen and (max-width: 1600px){
+
+}
+
+/*Resolução 1536×864*/
+@media screen and (max-width: 1536px){
+
+}
+
+/*Resolução 1440×900*/
+@media screen and (max-width: 1440px){
+
+}
+
+/*Resolução 1366×768*/
+@media screen and (max-width: 1366px){
+/*Editar diretamente os elemento do header*/
+.Logo {
+    margin-top: 10px; 
+}
+/*Texto da introdução do site*/
+#Introducao1 {
+    margin-top: 175px;   
+}
+/**/
+#container1{
+    height: 575px;  
+}
+/**/
+#container2{
+    height: 575px;
+}
+#quemSomos{
+    padding: 60px;
+}
+/*Caixa dentro do slide 1*/
+.Texto1 {
+    margin-top: 50px;
+    margin-left: 275px;
+    width: 800px;
+}
+/**/
+#container3{
+    height: 600px;
+}
+/**/
+#container4{
+    height: 600px;
+}
+/**/
+#container5{
+    height: 600px;
+}
+/**/
+#container6{
+    height: 540px;
+}
+/*cores do texto */
+#seuResultado{
+    margin-top: 30%;
+}
+.Texto6{
+    margin-top: -50px;
+    margin-left: 275px;
+    width: 800px;
+}
+/**/
+#container7{
+    height: 725px;
+}
+/**/
+#SlideContato {
+    width: 1000px;
+    height: 500px;
+    margin: 5% auto 6% 11%;
+}
+}
+
+/*Resolução 1280×720*/
+@media screen and (max-width: 1280px){
+
+}
+
+/*---|---|---|---|---|---|---|---|---|---|---|---|---|---|CSS RESPONSIVIDADE PARA SMARTPHONES|---|---|---|---|---|---|---|---|---|---|---|---|---|*/
+
+/*Resolução 414×896*/
+@media screen and (max-width: 414px){
+
+}
+
+/*Resolução 375×667*/
+@media screen and (max-width: 375px){
+
+}
+
+/*Resolução 360×640*/
+@media screen and (max-width: 360px){
+
+}
+
+/*---|---|---|---|---|---|---|---|---|---|---|---|---|---|CSS RESPONSIVIDADE PARA TABLETS|---|---|---|---|---|---|---|---|---|---|---|---|---|---|*/
+
+/*Resolução 1280×800*/
+@media screen and (max-width: 1280px){
+
+}
+
+/*Resolução 962×601*/
+@media screen and (max-width: 962px){
+
+}
+
+/*Resolução 810×1080*/
+@media screen and (max-width: 810px){
+
+}
+
+/*Resolução 800×1280 */
+@media screen and (max-width: 800px){
+
+}
+
+/*Resolução 768×1024*/
+@media screen and (max-width: 768px){
+
+}
+
+/*Resolução 601×962*/
+@media screen and (max-width: 601px){
+
+}
